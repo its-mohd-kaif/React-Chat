@@ -1,0 +1,42 @@
+.inputSection {
+  width: 50%;
+  margin-top: 3em;
+}
+.msgs {
+  /* border: 1px solid rgb(94, 94, 94); */
+  height: 500px;
+  overflow-y: auto;
+  width: 60%;
+  padding: 1em;
+  border-radius: 12px;
+}
+
+.sent {
+  margin: 3%;
+  display: flex;
+  flex-direction: row-reverse;
+  column-gap: 1em;
+  background-color: rgb(112, 203, 255);
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+    rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+  padding: 1em;
+  border-radius: 25px;
+}
+.received {
+  display: flex;
+  margin: 3%;
+  column-gap: 1em;
+  background-color: rgb(197, 197, 197);
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+    rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+  padding: 1em;
+  border-radius: 25px;
+}
+.userImg {
+  width: 4em;
+  border-radius: 50%;
+}
+.userMsg {
+  padding-top: 0.5em;
+  font-size: 25px;
+}
