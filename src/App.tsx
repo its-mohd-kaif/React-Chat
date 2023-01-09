@@ -4,7 +4,7 @@ import { auth } from "./firebase";
 import { useAuthState } from "react-firebase-hooks/auth";
 
 function App() {
-  const [user] = useAuthState(auth);
+  const [user] = useAuthState(auth as any);
   return <div>{user ? <Home /> : <Signin />}</div>;
 }
 
